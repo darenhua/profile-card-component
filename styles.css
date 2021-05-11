@@ -1,7 +1,134 @@
+body {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(185, 75%, 39%);
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.circle1 {
+  position: absolute;
+  bottom: 30%;
+  right: 40%;
+}
+.circle2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+.profile-card {
+  justify-self: center;
+  margin-top: 70px;
+  width: 25%;
+  height: 50%;
+  background-color: bisque;
+  z-index: 1;
+}
+
+.card-bg {
+  background-color: aliceblue;
+  width: 100%;
+  min-height: 38%;
+}
+
+.card-content {
+  width: 100%;
+  height: 62%;
+  background-color: brown;
+}
+
+.pfp {
+  height: 30%;
+  width: 30%;
+  margin: 0 auto;
+  position: relative;
+  background-color: orange;
+  bottom: 75%;
+}
+
+.row1 {
+  width: 100%;
+  position: relative;
+  top: 30%;
+  height: 40%;
+  background-color: bisque;
+}
+
+.user-name {
+  font-size: 12px;
+  display: block;
+  width: 100px;
+  background-color: #f5f5dc;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.age {
+  font-size: 12px;
+  background-color: azure;
+}
+
+.location {
+  font-size: 12px;
+  margin: 0 auto;
+  width: 100px;
+  text-align: center;
+}
+
+.line {
+  background-color: black;
+  width: 90%;
+  height: 10%;
+  position: relative;
+  top: 25%;
+  z-index: 1;
+  margin: 0 auto;
+}
+.row2 {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  top: 20%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stat-box {
+  width: 20%;
+  height: 50%;
+  background-color: red;
+  margin: 10px;
+}
+
+.box-stat {
+  font-size: 12px;
+  width: 50px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.box-label {
+  font-size: 12px;
+  width: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .attribution {
   color: white;
   font-size: 12px;
-  padding-top: 50px;
+  padding-top: 80px;
   color: hsla(0, 0%, 100%, 0.6);
   font-family: "Kumbh Sans", sans-serif;
 }
